@@ -1,135 +1,156 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <title>Romain Ruiz</title>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- My CSS for this page-->
-    <link href="css/my_css.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Accueil">
+  <meta name="author" content="Romain Ruiz">
+  <title>Accueil - Romain Ruiz</title>
+  <link rel="icon" href="img/favicons.png">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <!--My own CSS-->
+  <link rel="stylesheet" href="css/my_css.css" >
+
+  <style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md fixed-top expand-lg" id="navbar">
-        <a class="navbar-brand" href="#">Romain RUIZ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="liens.html">Liens</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">A propos</a>
-                </li>
-            </ul>
-            <!--<ul>
-              <div class="custom-control custom-switch">
-                      <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label></div>
-            </ul>-->
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-md fixed-top expand-lg" id="navbar">
+    <a class="navbar-brand" href="#">Romain RUIZ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="liens.html">Liens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">A propos</a>
+        </li>
+      </ul>
+      <!--<ul>
+        <div class="custom-control custom-switch">
+                <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label></div>
+      </ul>-->
+    </div>
+  </nav>
 </header>
 
 <main role="main">
-    <div class="toggle-container">
+  <div class="toggle-container">
+        
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-        <!-- Marketing messaging and featurettes
-      ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+      <div class="jumbotron" id="jumbotron-top">
+        <div class="container">
+          <h1 class="display-4">“La personnalité créatrice doit penser et juger par elle-même car le progrès moral de la société dépend exclusivement de son indépendance.”</h1>
+          <p class="lead">A.Einstein</p>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row" id="top">
+        <div class="col-lg-4">
+          <img src="img/java.png" height="140px" width="140px">
+          <h2 id="language-row">Java</h2>
+          <p><a class="btn btn-secondary rounded-pill" href="cours-java.html" role="button">Voir les docs &raquo</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/html5.png" height="140px" width="140px">
+          <h2 class="language-row">HTML</h2>
+          <p><a class="btn btn-secondary rounded-pill" href="cours-html.html" role="button">Voir les docs &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/CSS_Logo.png" height="140px" width="140px">
+          <h2 class="language-row">CSS</h2>
+          <p><a class="btn btn-secondary rounded-pill" href="cours-css.html" role="button">Voir les docs &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+      <hr class="featurette-divider">
+      <div class="row" id="middle">
+        <div class="col-lg-4">
+          <img src="img/php.png" height="140px" width="140px">
+          <h2 class="language-row">Php</h2>
+          <p><a class="btn btn-secondary rounded-pill" href="cours-php.html" role="button">Voir les docs &raquo</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/js.png" height="140px" width="140px">
+          <h2 class="language-row">Javascript</h2>
+          <p><a class="btn btn-secondary rounded-pill" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" role="button">Voir les docs &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="img/jQurery.png" height="140px" width="140px">
+          <h2 class="language-row">jQuery</h2>
+          <p><a class="btn btn-secondary rounded-pill" href="https://api.jquery.com/" role="button">Voir les docs &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
 
-        <div class="container marketing">
-            <div class="jumbotron" id="jumbotron-top">
-                <div class="container">
-                    <h1 class="display-4">“La personnalité créatrice doit penser et juger par elle-même car le progrès moral de la société dépend exclusivement de son indépendance.”</h1>
-                    <p class="lead">A.Einstein</p>
-                </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row" id="top">
-                <div class="col-lg-4">
-                    <img src="img/java.png" height="140px" width="140px">
-                    <h2 id="language-row">Java</h2>
-                    <p><a class="btn btn-secondary rounded-pill" href="cours-java.html" role="button">Voir les docs &raquo</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="img/html5.png" height="140px" width="140px">
-                    <h2 class="language-row">HTML</h2>
-                    <p><a class="btn btn-secondary rounded-pill" href="cours-html.html" role="button">Voir les docs &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="img/CSS_Logo.png" height="140px" width="140px">
-                    <h2 class="language-row">CSS</h2>
-                    <p><a class="btn btn-secondary rounded-pill" href="cours-css.html" role="button">Voir les docs &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div>
-            <hr class="featurette-divider">
-            <div class="row" id="middle">
-                <div class="col-lg-4">
-                    <img src="img/php.png" height="140px" width="140px">
-                    <h2 class="language-row">Php</h2>
-                    <p><a class="btn btn-secondary rounded-pill" href="cours-php.html" role="button">Voir les docs &raquo</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="img/js.png" height="140px" width="140px">
-                    <h2 class="language-row">Javascript</h2>
-                    <p><a class="btn btn-secondary rounded-pill" href="https://developer.mozilla.org/fr/docs/Web/JavaScript" role="button">Voir les docs &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img src="img/jQurery.png" height="140px" width="140px">
-                    <h2 class="language-row">jQuery</h2>
-                    <p><a class="btn btn-secondary rounded-pill" href="https://api.jquery.com/" role="button">Voir les docs &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div>
+      <!-- START THE FEATURETTES -->
 
-            <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
 
-            <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Bootstrap.</h2>
+          <p class="lead">Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web.</p>
+        </div>
+        <div class="col-md-5">
+          <a href="https://fr.wikipedia.org/wiki/Bootstrap_%28framework%29"><img src="img/bootstrap.png"height="500px" width="500px"></a>
+        </div>
+      </div>
 
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Bootstrap.</h2>
-                    <p class="lead">Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web.</p>
-                </div>
-                <div class="col-md-5">
-                    <a href="https://fr.wikipedia.org/wiki/Bootstrap_%28framework%29"><img src="img/bootstrap.png"height="500px" width="500px"></a>
-                </div>
-            </div>
+      <hr class="featurette-divider">
 
-            <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Github Pages. <span class="text-muted">Sites Web pour vous et vos projets.</span></h2>
+          <p class="lead">Hébergé directement depuis un repository GitHub. Il suffit d’éditer, de push et vos modifications sont en direct.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <a href="https://pages.github.com/"><img src="img/github-logo.png" height="300px" width="300px"></a>
+        </div>
+      </div>
 
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Github Pages. <span class="text-muted">Sites Web pour vous et vos projets.</span></h2>
-                    <p class="lead">Hébergé directement depuis un repository GitHub. Il suffit d’éditer, de push et vos modifications sont en direct.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <a href="https://pages.github.com/"><img src="img/github-logo.png" height="300px" width="300px"></a>
-                </div>
-            </div>
+      <hr class="featurette-divider">
 
-            <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
 
-            <!-- /END THE FEATURETTES -->
-
-        </div><!-- /.container -->
-    </div>
+    </div><!-- /.container -->
+  </div>
 </main>
 <!-- FOOTER -->
 <footer class="container">
-    <!--<p class="float-right"><a href="#">Revenir en haut</a></p>-->
-    <div class="float-right">
-        <a href="https://twitter.com/Romain_Rz"><img src="img/twitter.png" height="32px" width="32px"></a>
-        <a href="https://linkedin.com"><img src="img/linkedin.png" height="32px" width="32px"></a>
-        <a href="https://github.com/rom1ruiz"><img src="img/github-logo.png" height="32px" width="32px"></a>
-    </div>
+  <!--<p class="float-right"><a href="#">Revenir en haut</a></p>-->
+  <div class="float-right">
+    <a href="https://twitter.com/Romain_Rz"><img src="img/twitter.png" height="32px" width="32px"></a>
+    <a href="https://linkedin.com"><img src="img/linkedin.png" height="32px" width="32px"></a>
+    <a href="https://github.com/rom1ruiz"><img src="img/github-logo.png" height="32px" width="32px"></a>
+  </div>
 </footer>
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script></body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/my_js.js"></script>
+</body>
 </html>
