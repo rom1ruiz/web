@@ -8,7 +8,7 @@ body{
     }
 }
 #navbar{
-    background-color:#263238;
+    background-color: #3e5780;
 }
 .navbar-brand{
     color:whitesmoke;
@@ -109,8 +109,8 @@ html.transition *:after {
   transition-delay: 0 !important;
 }*/
 .btn-secondary{
-    background-color:#263238;
-    border-color:#263238;
+    background-color:#3e5780;
+    border-color:#3e5780;
 }
 .btn-secondary:hover{
     background-color:#1e88e5;
@@ -121,14 +121,14 @@ html.transition *:after {
 }
 #jumbotron-top::-moz-selection,::selection{
     color:white;
-    background-color:#263238;
+    background-color:#3e5780;
 }
 #language-row:hover{
     color:#1e88e5;
 }
 #language-row::-moz-selection,::selection{
     color:white;
-    background-color:#263238;
+    background-color:#3e5780;
 }
 #main{
     padding-top: 4rem;
