@@ -1,38 +1,22 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Accueil">
-  <meta name="author" content="Romain Ruiz">
-  <title>Accueil - Romain Ruiz</title>
-  <link rel="icon" href="img/favicons.png">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/carousel.css">
-  <!--My own CSS-->
-  <link rel="stylesheet" href="css/my_css.css" >
-
-  <style>
-  .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Accueil">
+    <meta name="author" content="Romain Ruiz">
+    <title>Accueil - Romain Ruiz</title>
+    <link rel="icon" href="img/favicons.png">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <!--My own CSS-->
+    <link rel="stylesheet" href="css/my_css.css" >
 </head>
 <body>
+<!-- HEADER -->
 <header>
-  <nav class="navbar navbar-expand-md fixed-top expand-lg" id="navbar">
+  <nav class="navbar fixed-top navbar-expand" id="navbar">
     <a class="navbar-brand" href="#">Romain RUIZ</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,37 +33,27 @@
           <a class="nav-link" href="about.html">A propos</a>
         </li>
       </ul>
-      <!--<ul>
-        <div class="custom-control custom-switch">
-                <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label></div>
-      </ul>-->
     </div>
   </nav>
 </header>
-
+<!-- MAIN -->
 <main role="main">
   <div class="toggle-container">
-        
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container marketing">
       <div class="jumbotron" id="jumbotron-top">
-        <div class="container">
-          <h1 class="display-4">“La personnalité créatrice doit penser et juger par elle-même car le progrès moral de la société dépend exclusivement de son indépendance.”</h1>
+        <div class="col-md-7 col-xl-12">
+          <h2 class="disabled">“La personnalité créatrice doit penser et juger par elle-même car le progrès moral de la société dépend exclusivement de son indépendance.”</h2>
           <p class="lead">A.Einstein</p>
         </div>
       </div>
       <hr class="featurette-divider">
-      <!-- START THE FEATURETTES -->
       <div class="row featurette">
-        <div class="col-md-7">
+        <div class="col-md-7 col-sm-3">
           <h2 class="featurette-heading">Bootstrap.</h2>
           <p class="lead">Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web.</p>
         </div>
-        <div class="col-md-5">
-          <a href="https://fr.wikipedia.org/wiki/Bootstrap_%28framework%29"><img src="img/bootstrap.png"height="500px" width="500px"></a>
+        <div class="col-md-4  order-md-1">
+          <a href="https://fr.wikipedia.org/wiki/Bootstrap_%28framework%29"><img src="img/bootstrap.png"></a>
         </div>
       </div>
 
@@ -94,24 +68,20 @@
           <a href="https://pages.github.com/"><img src="img/github-logo.png" height="300px" width="300px"></a>
         </div>
       </div>
-
       <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-    </div><!-- /.container -->
+    </div>
   </div>
 </main>
 <!-- FOOTER -->
 <footer class="container">
-  <!--<p class="float-right"><a href="#">Revenir en haut</a></p>-->
   <div class="float-right">
     <a href="https://twitter.com/Romain_Rz"><img src="img/twitter.png" height="32px" width="32px"></a>
-    <a href="https://linkedin.com"><img src="img/linkedin.png" height="32px" width="32px"></a>
+    <a href="https://www.linkedin.com/in/romain-ruiz-a99192152/"><img src="img/linkedin.png" height="32px" width="32px"></a>
     <a href="https://github.com/rom1ruiz"><img src="img/github-logo.png" height="32px" width="32px"></a>
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--Script placed at the end loads pages faster ! -->
+<script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/my_js.js"></script>
 </body>
 </html>
