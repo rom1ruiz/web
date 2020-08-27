@@ -199,5 +199,12 @@ body {
     }
   }
   
-  
-  
+  .btn{
+    color : white;
+    border-radius: 12px;
+  }
+
+.btn:hover{
+  color : #333;
+  background-color: #fff;
+}
