@@ -82,7 +82,7 @@ body
 
 .contactInfo
 {
-  padding-top:40px;
+  padding-top:20px;
 }
 
 .title
@@ -172,7 +172,7 @@ body
 
 .about
 {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .about:last-child
@@ -197,7 +197,6 @@ p
 {
     display:flex;
     flex-direction: row;
-    margin: 20px 0;
 }
 
 .about .box .year_compagny
